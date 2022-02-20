@@ -1,0 +1,265 @@
+@import "null.css";
+
+body {
+   font-family: 'Lato', sans-serif;
+   font-size: 16px;
+   background-color: #eff1f7;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   max-width: 810px;
+   margin: 0 auto;
+}
+
+h1 {
+   font-style: normal;
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+   color: #1E212C;
+   text-align: left;
+}
+.title {
+   margin: 0 0 25px 0;
+}
+
+/* ===================================================== */
+.data {
+   display: inline-block;
+   max-width: 50%;
+   margin-bottom: 40px;
+   font-size: 16px;
+   line-height: 160%;
+   color: #787A80;
+}
+.calendar {
+   display: inline-block;
+   background: url(../img/icon/Stroke.svg) 0 50% no-repeat;
+   padding: 0 25px;
+}
+.time {
+   display: inline-block;
+   background: url(../img/icon/Union.svg) 0 50% no-repeat;
+   padding: 0 25px;
+}
+.indent{
+   display: inline-block;
+   width: 365px;
+   height: 20px;
+   background-color: rgba(255, 255, 255, 0);
+}
+
+
+.sharing{
+   display: inline-block;
+   align-items: center;
+   margin-bottom: 40px;
+ 
+}
+.sharing-title {
+   display: inline-block;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 1.6;
+   color: #1E212C;
+   padding-right: 12px;
+   /* padding-left: 365px; */
+}
+.icon{
+   display: inline-block;
+}
+
+.fb{
+   height: 20px;
+   width: 20px;
+   display: inline-block;
+   margin: -3px 12px -3px 0px;
+   background: url(../img/icon/vector_1.svg) 0 0/20px no-repeat;
+}
+.tw{
+   height: 20px;
+   width: 20px;
+   display: inline-block;
+   margin: -3px 12px -3px 0px;
+   background: url(../img/icon/vector_2.svg) 0 0/20px no-repeat;
+  
+}
+.in{
+   height: 20px;
+   width: 20px;
+   display: inline-block;
+   margin: -3px 0px -3px 0px;
+   background: url(../img/icon/vector.svg) 0 0/20px no-repeat;
+}
+.sharing-title-2{
+   display: inline-block;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 1.6;
+   color: #1E212C;
+   padding-right: 12px;
+   
+}
+/* ====================================================== */
+
+.image {
+   margin: 0 0 60px 0;
+}
+
+.text {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 1.5;
+
+   color: #1E212C;
+   margin-bottom: 25px;
+}
+
+.paragraph-text {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.6;
+   margin-bottom: 50px;
+   color: #424551;
+}
+.text-1 {
+   padding-bottom: 30px;
+}
+
+.block {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 1.5;
+   margin-bottom: 50px ;
+}
+.block-text {
+   color: #1E212C;
+   background: url(../img/icon/braces.png) 0 0 no-repeat ;
+   padding-left: 50px ;
+}
+
+.item-list {
+   background: url(../img/icon/check.png) 0 5px no-repeat;
+   padding-left: 35px ;
+   margin-bottom: 4px;
+   
+}
+
+h2 {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.6;
+   color: #424551;
+   padding-bottom: 25px;
+}
+
+.text-list {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 160%;
+   color: #424551;
+}
+.list {
+   margin-bottom: 25px;
+}
+/* ===================игра=============================== */
+
+
+.game{
+   height: 1700px;
+}
+.line {
+	font-size: 0;
+
+}
+.line-1 {
+	width: 50px;
+	height: 50px;
+   background-color: #2b55ec;
+
+}
+.line-1:hover{
+   width: 700px;
+   background-color: #2b55ec;
+
+}
+.line-2{
+   width: 50px;
+	height: 50px;
+   margin-left: 600px;
+   margin-top: -50px;
+   
+   
+}
+
+.line-2:hover{
+   width: 50px;
+   height: 200px;
+   margin-left: 600px;
+   background-color:  #2b55ec;
+}
+.line-3{
+   width: 50px;
+	height: 50px;
+   margin-left: 600px;
+   margin-top: -50px;
+  
+  
+}
+.line-3:hover{
+  width: 700px;
+  height: 50px;
+  margin-top: 100px;
+  margin-left: 0;
+  background-color:  #2b55ec;
+}
+
+
+.line-4{
+   width: 50px;
+	height: 50px;
+}
+.line-4:hover{
+   height: 200px;
+   margin-top: 100px;
+   background-color: #2b55ec;
+}
+.line-5{
+   width: 50px;
+	height: 50px;
+
+}
+
+
+
+
+.line-3:hover + .line-4{
+   height: 200px;
+   margin-top: -50px;
+   background-color: #2b55ec;
+}
+
+.line-1:hover + .line-2{
+   width: 50px;
+   height: 200px;
+   margin-left: 600px;
+   background-color:  #2b55ec;
+}
+.line-4:hover + .line-5{
+   width: 50px;
+	height: 50px;
+   background-color: #ec2b2b;
+}
+.line-5:hover{
+   width: 100%;
+   height: 800px;
+   background-color: #ec2b2b;
+   background: url(/img/mercedes.jpg) 0 0 / 100% auto no-repeat;
+}
